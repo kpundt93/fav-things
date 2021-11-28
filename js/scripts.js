@@ -13,12 +13,13 @@ $(document).ready(function() {
     console.log(favorites[2]);
     console.log(favorites[3]);
     let newFavorites = [];
-    newFavorites.push(favorites[1], favorites[2], favorites[3]);
+    newFavorites.push(favorites[0], favorites[1], favorites[2], favorites[3]);
     console.log(newFavorites);
 
   $('#newFavorites').append('<li>' + newFavorites[0] + '</li>');
   $('#newFavorites').append('<li>' + newFavorites[1] + '</li>');
   $('#newFavorites').append('<li>' + newFavorites[2] + '</li>');
+  $('#newFavorites').append('<li>' + newFavorites[3] + '</li>');
     console.log(newFavorites);
   });
 });
